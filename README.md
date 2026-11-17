@@ -108,3 +108,13 @@ Proyek ini dibuat sebagai bagian dari tugas pengembangan perangkat lunak oleh Ke
 ## 🔗 Repository
 
 [GitHub - projek-rpl-laundryKu](https://github.com/putrihima909/projek-rpl-laundryKu)
+
+## 🎥 Video Presentasi
+Tonton video presentasi dan demonstrasi aplikasi LaundryKu melalui tautan berikut:
+
+- [Link YouTube](MASUKKAN_LINK_YOUTUBE)
+
+## 📁 Dokumentasi dan File Project
+Dokumentasi, laporan, dan file pendukung project LaundryKu dapat diakses melalui Google Drive:
+
+- [Link Google Drive](MASUKKAN_LINK_GOOGLE_DRIVE)
