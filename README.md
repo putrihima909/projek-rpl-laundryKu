@@ -112,9 +112,9 @@ Proyek ini dibuat sebagai bagian dari tugas pengembangan perangkat lunak oleh Ke
 ## 🎥 Video Presentasi
 Tonton video presentasi dan demonstrasi aplikasi LaundryKu melalui tautan berikut:
 
-- [Link YouTube](MASUKKAN_LINK_YOUTUBE(https://youtu.be/4Z_pQauyDPA))
+- [Link YouTube](https://youtu.be/4Z_pQauyDPA)
 
 ## 📁 Dokumentasi dan File Project
 Dokumentasi, laporan, dan file pendukung project LaundryKu dapat diakses melalui Google Drive:
 
-- [Link Google Drive](https://drive.google.com/file/d/1SiTtAOXhBoq0T39tEP7wxO-nM7NgAMKE/view?usp=drive_link))
+- [Link Google Drive](https://drive.google.com/file/d/1SiTtAOXhBoq0T39tEP7wxO-nM7NgAMKE/view?usp=drive_link)
