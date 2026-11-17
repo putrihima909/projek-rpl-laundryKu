@@ -117,4 +117,4 @@ Tonton video presentasi dan demonstrasi aplikasi LaundryKu melalui tautan beriku
 ## 📁 Dokumentasi dan File Project
 Dokumentasi, laporan, dan file pendukung project LaundryKu dapat diakses melalui Google Drive:
 
-- [Link Google Drive](MASUKKAN_LINK_GOOGLE_DRIVE)
+- [Link Google Drive](https://drive.google.com/file/d/1SiTtAOXhBoq0T39tEP7wxO-nM7NgAMKE/view?usp=drive_link))
