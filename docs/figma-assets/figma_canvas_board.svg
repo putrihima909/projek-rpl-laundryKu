@@ -1,0 +1,640 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap');
+      text { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .header-title { font-size: 26px; font-weight: 800; fill: #0F172A; }
+      .header-sub { font-size: 13px; font-weight: 500; fill: #64748B; }
+      .card-title { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .text-body { font-size: 10px; font-weight: 400; fill: #475569; }
+      .text-badge { font-size: 8px; font-weight: 700; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+    <filter id="board-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1920" height="1080" fill="#F0F4F8" />
+
+  <!-- TOP HEADER BANNER -->
+  <g transform="translate(40, 24)">
+    <!-- App Logo Mark -->
+    <rect x="0" y="0" width="44" height="44" rx="12" fill="#2563EB" />
+    <path d="M22 12C18 12 15 15 15 19C15 24 22 31 22 31C22 31 29 24 29 19C29 15 26 12 22 12Z" fill="#FFFFFF"/>
+    <circle cx="22" cy="19" r="3" fill="#2563EB"/>
+
+    <text x="56" y="22" class="header-title">LaundryKu (WashMart) — UI/UX Design System</text>
+    <text x="56" y="38" class="header-sub">Modern • Simple • User Friendly | Figma Ready Project Board</text>
+
+    <!-- Figma Badge in Header Right -->
+    <g transform="translate(1660, 6)">
+      <rect width="180" height="34" rx="17" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1"/>
+      <circle cx="20" cy="17" r="7" fill="#22C55E"/>
+      <text x="36" y="21" font-size="12px" font-weight="700" fill="#166534">Figma Ready Design</text>
+    </g>
+  </g>
+
+  <!-- ================= LEFT COLUMN: DESIGN SYSTEM PANEL ================= -->
+  <g transform="translate(40, 85)">
+    <rect width="250" height="960" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    
+    <g transform="translate(20, 24)">
+      <text x="0" y="0" font-size="16px" font-weight="700" fill="#0F172A">Design System</text>
+
+      <!-- Color Palette -->
+      <text x="0" y="32" font-size="12px" font-weight="600" fill="#475569">Color Palette</text>
+      
+      <!-- Blue -->
+      <g transform="translate(0, 44)">
+        <circle cx="10" cy="8" r="8" fill="#2563EB"/>
+        <text x="26" y="12" font-size="11px" font-weight="600" fill="#1E293B">Primary Blue</text>
+        <text x="145" y="12" font-size="11px" font-family="monospace" fill="#64748B">#2563EB</text>
+      </g>
+      <!-- Cyan -->
+      <g transform="translate(0, 68)">
+        <circle cx="10" cy="8" r="8" fill="#06B6D4"/>
+        <text x="26" y="12" font-size="11px" font-weight="600" fill="#1E293B">Secondary</text>
+        <text x="145" y="12" font-size="11px" font-family="monospace" fill="#64748B">#06B6D4</text>
+      </g>
+      <!-- Green -->
+      <g transform="translate(0, 92)">
+        <circle cx="10" cy="8" r="8" fill="#22C55E"/>
+        <text x="26" y="12" font-size="11px" font-weight="600" fill="#1E293B">Success</text>
+        <text x="145" y="12" font-size="11px" font-family="monospace" fill="#64748B">#22C55E</text>
+      </g>
+      <!-- Orange -->
+      <g transform="translate(0, 116)">
+        <circle cx="10" cy="8" r="8" fill="#F59E0B"/>
+        <text x="26" y="12" font-size="11px" font-weight="600" fill="#1E293B">Warning</text>
+        <text x="145" y="12" font-size="11px" font-family="monospace" fill="#64748B">#F59E0B</text>
+      </g>
+      <!-- Red -->
+      <g transform="translate(0, 140)">
+        <circle cx="10" cy="8" r="8" fill="#EF4444"/>
+        <text x="26" y="12" font-size="11px" font-weight="600" fill="#1E293B">Error</text>
+        <text x="145" y="12" font-size="11px" font-family="monospace" fill="#64748B">#EF4444</text>
+      </g>
+      <!-- Gray -->
+      <g transform="translate(0, 164)">
+        <circle cx="10" cy="8" r="8" fill="#6B7280"/>
+        <text x="26" y="12" font-size="11px" font-weight="600" fill="#1E293B">Neutral</text>
+        <text x="145" y="12" font-size="11px" font-family="monospace" fill="#64748B">#6B7280</text>
+      </g>
+
+      <!-- Divider -->
+      <line x1="0" y1="194" x2="210" y2="194" stroke="#F1F5F9" stroke-width="1.5"/>
+
+      <!-- Typography -->
+      <text x="0" y="218" font-size="12px" font-weight="600" fill="#475569">Typography (Poppins)</text>
+      <g transform="translate(0, 230)">
+        <text x="0" y="12" font-size="11px" font-weight="700" fill="#0F172A">H1</text>
+        <text x="36" y="12" font-size="11px" fill="#64748B">32px Bold</text>
+
+        <text x="0" y="32" font-size="11px" font-weight="600" fill="#0F172A">H2</text>
+        <text x="36" y="32" font-size="11px" fill="#64748B">24px Semibold</text>
+
+        <text x="0" y="52" font-size="11px" font-weight="600" fill="#0F172A">H3</text>
+        <text x="36" y="52" font-size="11px" fill="#64748B">20px Semibold</text>
+
+        <text x="0" y="72" font-size="11px" font-weight="400" fill="#0F172A">Body</text>
+        <text x="36" y="72" font-size="11px" fill="#64748B">16px Regular</text>
+
+        <text x="0" y="92" font-size="11px" font-weight="400" fill="#0F172A">Caption</text>
+        <text x="56" y="92" font-size="11px" fill="#64748B">14px Regular</text>
+      </g>
+
+      <!-- Divider -->
+      <line x1="0" y1="340" x2="210" y2="340" stroke="#F1F5F9" stroke-width="1.5"/>
+
+      <!-- UI Components -->
+      <text x="0" y="364" font-size="12px" font-weight="600" fill="#475569">Components</text>
+      
+      <!-- Primary Button -->
+      <rect x="0" y="378" width="210" height="32" rx="8" fill="#2563EB"/>
+      <text x="105" y="398" font-size="11px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Primary Button</text>
+
+      <!-- Secondary Button -->
+      <rect x="0" y="418" width="210" height="32" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="1"/>
+      <text x="105" y="438" font-size="11px" font-weight="600" fill="#2563EB" text-anchor="middle">Secondary Button</text>
+
+      <!-- Success Button -->
+      <rect x="0" y="458" width="210" height="32" rx="8" fill="#22C55E"/>
+      <text x="105" y="478" font-size="11px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Success Button</text>
+
+      <!-- Search Input Mini -->
+      <rect x="0" y="500" width="210" height="32" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <text x="12" y="520" font-size="10px" fill="#94A3B8">Input Field...</text>
+      <circle cx="196" cy="516" r="4" stroke="#94A3B8" fill="none"/>
+
+      <!-- Badges -->
+      <g transform="translate(0, 546)">
+        <rect width="98" height="22" rx="11" fill="#FEF3C7"/>
+        <text x="49" y="11" class="text-badge" fill="#D97706">Pesanan Baru</text>
+
+        <rect x="106" width="98" height="22" rx="11" fill="#DBEAFE"/>
+        <text x="155" y="11" class="text-badge" fill="#2563EB">Diproses</text>
+      </g>
+
+      <g transform="translate(0, 576)">
+        <rect width="98" height="22" rx="11" fill="#DCFCE7"/>
+        <text x="49" y="11" class="text-badge" fill="#16A34A">Dikirim</text>
+
+        <rect x="106" width="98" height="22" rx="11" fill="#F1F5F9"/>
+        <text x="155" y="11" class="text-badge" fill="#475569">Selesai</text>
+      </g>
+
+      <!-- Navigation Icons List -->
+      <g transform="translate(0, 620)">
+        <text x="0" y="0" font-size="11px" font-weight="600" fill="#475569">Navigation Items</text>
+        <text x="0" y="24" font-size="11px" fill="#1E293B">🏠 Home</text>
+        <text x="0" y="44" font-size="11px" fill="#1E293B">🧺 Order</text>
+        <text x="0" y="64" font-size="11px" fill="#1E293B">🤖 Chat AI</text>
+        <text x="0" y="84" font-size="11px" fill="#1E293B">👤 Profile</text>
+        <text x="0" y="104" font-size="11px" fill="#1E293B">⚙️ Settings</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= GRID OF FRAMES (ROW 1: FRAMES 1, 2, 3, 4) ================= -->
+  
+  <!-- Frame 1: Landing Page -->
+  <g transform="translate(310, 85)">
+    <rect width="360" height="290" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">1. Landing Page</text>
+    
+    <!-- Mini Navbar -->
+    <rect x="16" y="32" width="328" height="24" rx="4" fill="#F8FAFC"/>
+    <circle cx="28" cy="44" r="4" fill="#2563EB"/>
+    <text x="36" y="47" font-size="9px" font-weight="700" fill="#0F172A">WashMart</text>
+    <rect x="288" y="36" width="48" height="16" rx="4" fill="#2563EB"/>
+    <text x="312" y="47" font-size="8px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Login</text>
+
+    <!-- Hero Content -->
+    <text x="24" y="80" font-size="15px" font-weight="800" fill="#0F172A">Laundry Lebih Mudah</text>
+    <text x="24" y="98" font-size="15px" font-weight="800" fill="#2563EB">dengan Teknologi AI</text>
+    <text x="24" y="116" class="text-body">Pesan laundry, lacak pesanan, dan</text>
+    <text x="24" y="128" class="text-body">dapatkan rekomendasi terbaik!</text>
+    
+    <rect x="24" y="140" width="100" height="26" rx="6" fill="#2563EB"/>
+    <text x="74" y="156" font-size="9px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Mulai Sekarang →</text>
+
+    <!-- Mini Washing Machine Visual -->
+    <rect x="220" y="70" width="100" height="100" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+    <circle cx="270" cy="120" r="30" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+    <circle cx="270" cy="120" r="16" fill="#2563EB" opacity="0.3"/>
+
+    <!-- Bottom Features -->
+    <rect x="16" y="185" width="328" height="88" rx="8" fill="#F8FAFC"/>
+    <text x="24" y="202" font-size="10px" font-weight="700" fill="#1E293B">Mengapa WashMart?</text>
+    <text x="24" y="218" font-size="8px" fill="#475569">🤖 AI Assistant • 🚚 Pengiriman Cepat • 💰 Harga Transparan</text>
+  </g>
+
+  <!-- Frame 2: Login & Register -->
+  <g transform="translate(690, 85)">
+    <rect width="280" height="290" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">2. Login &amp; Register</text>
+
+    <g transform="translate(30, 36)">
+      <circle cx="110" cy="24" r="16" fill="#EFF6FF"/>
+      <path d="M110 16L116 26H104L110 16Z" fill="#2563EB"/>
+      <text x="110" y="54" font-size="13px" font-weight="700" fill="#0F172A" text-anchor="middle">Selamat Datang!</text>
+      
+      <!-- Tabs [Login | Register] -->
+      <rect x="20" y="66" width="180" height="24" rx="12" fill="#F1F5F9"/>
+      <rect x="22" y="68" width="88" height="20" rx="10" fill="#FFFFFF"/>
+      <text x="66" y="82" font-size="9px" font-weight="600" fill="#2563EB" text-anchor="middle">Login</text>
+      <text x="154" y="82" font-size="9px" font-weight="500" fill="#64748B" text-anchor="middle">Register</text>
+
+      <!-- Input Fields -->
+      <rect x="10" y="100" width="200" height="26" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="20" y="116" font-size="8px" fill="#94A3B8">Email atau Username</text>
+
+      <rect x="10" y="134" width="200" height="26" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="20" y="150" font-size="8px" fill="#94A3B8">Password</text>
+
+      <!-- Action Button -->
+      <rect x="10" y="170" width="200" height="28" rx="6" fill="#2563EB"/>
+      <text x="110" y="187" font-size="10px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Masuk</text>
+
+      <text x="110" y="215" font-size="8px" fill="#94A3B8" text-anchor="middle">atau masuk dengan Google / WA</text>
+    </g>
+  </g>
+
+  <!-- Frame 3: Customer Dashboard -->
+  <g transform="translate(990, 85)">
+    <rect width="440" height="290" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">3. Customer Dashboard</text>
+
+    <!-- Greeting -->
+    <text x="20" y="50" font-size="13px" font-weight="700" fill="#0F172A">Halo, Budi Santoso!</text>
+    <text x="20" y="64" font-size="9px" fill="#64748B">Selamat datang kembali di WashMart</text>
+
+    <!-- 4 Stat Cards Mini -->
+    <g transform="translate(20, 76)">
+      <rect width="90" height="50" rx="8" fill="#EFF6FF"/>
+      <text x="10" y="18" font-size="8px" font-weight="600" fill="#2563EB">Pesanan Aktif</text>
+      <text x="10" y="38" font-size="15px" font-weight="700" fill="#1E293B">2</text>
+
+      <rect x="100" width="90" height="50" rx="8" fill="#F0FDF4"/>
+      <text x="110" y="18" font-size="8px" font-weight="600" fill="#16A34A">Total Selesai</text>
+      <text x="110" y="38" font-size="15px" font-weight="700" fill="#1E293B">12</text>
+
+      <rect x="200" width="96" height="50" rx="8" fill="#FFFBEB"/>
+      <text x="210" y="18" font-size="8px" font-weight="600" fill="#D97706">Saldo Kupon</text>
+      <text x="210" y="38" font-size="13px" font-weight="700" fill="#1E293B">Rp 150.000</text>
+
+      <rect x="306" width="90" height="50" rx="8" fill="#ECFEFF"/>
+      <text x="316" y="18" font-size="8px" font-weight="600" fill="#0891B2">Rating</text>
+      <text x="316" y="38" font-size="15px" font-weight="700" fill="#1E293B">4.8 ★</text>
+    </g>
+
+    <!-- Section Pesanan Terbaru -->
+    <text x="20" y="148" font-size="11px" font-weight="700" fill="#1E293B">Pesanan Terbaru</text>
+
+    <!-- Row 1 -->
+    <rect x="20" y="158" width="400" height="34" rx="6" fill="#F8FAFC"/>
+    <text x="32" y="178" font-size="9px" font-weight="700" fill="#2563EB">#INV-00124</text>
+    <text x="110" y="178" font-size="9px" fill="#475569">Laundry Express</text>
+    <rect x="280" y="166" width="60" height="18" rx="9" fill="#FEF3C7"/>
+    <text x="310" y="175" class="text-badge" fill="#D97706">Diproses</text>
+    <text x="355" y="178" font-size="9px" fill="#64748B">12 Apr</text>
+
+    <!-- Row 2 -->
+    <rect x="20" y="198" width="400" height="34" rx="6" fill="#F8FAFC"/>
+    <text x="32" y="218" font-size="9px" font-weight="700" fill="#2563EB">#INV-00123</text>
+    <text x="110" y="218" font-size="9px" fill="#475569">Laundry Premium</text>
+    <rect x="280" y="206" width="60" height="18" rx="9" fill="#DCFCE7"/>
+    <text x="310" y="215" class="text-badge" fill="#16A34A">Dikirim</text>
+    <text x="355" y="218" font-size="9px" fill="#64748B">11 Apr</text>
+
+    <!-- Row 3 -->
+    <rect x="20" y="238" width="400" height="34" rx="6" fill="#F8FAFC"/>
+    <text x="32" y="258" font-size="9px" font-weight="700" fill="#2563EB">#INV-00122</text>
+    <text x="110" y="258" font-size="9px" fill="#475569">Laundry Kiat</text>
+    <rect x="280" y="246" width="60" height="18" rx="9" fill="#F1F5F9"/>
+    <text x="310" y="255" class="text-badge" fill="#475569">Selesai</text>
+    <text x="355" y="258" font-size="9px" fill="#64748B">10 Apr</text>
+  </g>
+
+  <!-- Frame 4: Pilih Toko Laundry -->
+  <g transform="translate(1450, 85)">
+    <rect width="430" height="290" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">4. Pilih Toko Laundry</text>
+
+    <!-- Search Input -->
+    <rect x="16" y="34" width="398" height="26" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="30" y="50" font-size="9px" fill="#94A3B8">🔍 Cari toko laundry terdekat...</text>
+
+    <!-- Filter Tabs -->
+    <rect x="16" y="66" width="50" height="20" rx="10" fill="#2563EB"/>
+    <text x="41" y="79" font-size="8px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Semua</text>
+    <rect x="72" y="66" width="60" height="20" rx="10" fill="#F1F5F9"/>
+    <text x="102" y="79" font-size="8px" fill="#64748B" text-anchor="middle">Terdekat</text>
+    <rect x="138" y="66" width="80" height="20" rx="10" fill="#F1F5F9"/>
+    <text x="178" y="79" font-size="8px" fill="#64748B" text-anchor="middle">Rating Terbaik</text>
+
+    <!-- Store Card 1 -->
+    <g transform="translate(16, 94)">
+      <rect width="398" height="84" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <rect x="10" y="10" width="64" height="64" rx="6" fill="#BFDBFE"/>
+      <text x="84" y="28" font-size="12px" font-weight="700" fill="#0F172A">Laundry Express</text>
+      <text x="84" y="44" font-size="9px" fill="#64748B">Jl. Melati No. 12 (1.2 km)</text>
+      <text x="84" y="62" font-size="9px" font-weight="600" fill="#D97706">★ 4.8 (1.2k ulasan)</text>
+      <rect x="310" y="28" width="76" height="26" rx="6" fill="#2563EB"/>
+      <text x="348" y="44" font-size="9px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Pilih Toko</text>
+    </g>
+
+    <!-- Store Card 2 -->
+    <g transform="translate(16, 188)">
+      <rect width="398" height="84" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <rect x="10" y="10" width="64" height="64" rx="6" fill="#DDD6FE"/>
+      <text x="84" y="28" font-size="12px" font-weight="700" fill="#0F172A">Laundry Premium</text>
+      <text x="84" y="44" font-size="9px" fill="#64748B">Jl. Kenanga No. 8 (2.4 km)</text>
+      <text x="84" y="62" font-size="9px" font-weight="600" fill="#D97706">★ 4.7 (856 ulasan)</text>
+      <rect x="310" y="28" width="76" height="26" rx="6" fill="#2563EB"/>
+      <text x="348" y="44" font-size="9px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Pilih Toko</text>
+    </g>
+  </g>
+
+  <!-- ================= GRID OF FRAMES (ROW 2: FRAMES 5, 6, 7, 8) ================= -->
+
+  <!-- Frame 5: Detail & Pemesanan -->
+  <g transform="translate(310, 395)">
+    <rect width="320" height="300" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">5. Detail &amp; Pemesanan</text>
+
+    <!-- Store Banner Mini -->
+    <rect x="16" y="32" width="288" height="50" rx="8" fill="#EFF6FF"/>
+    <text x="28" y="52" font-size="12px" font-weight="700" fill="#0F172A">Laundry Express</text>
+    <text x="28" y="68" font-size="9px" fill="#64748B">★ 4.8 (1.2k ulasan) • Buka 08:00 - 21:00</text>
+
+    <!-- Service Selection Options -->
+    <text x="16" y="100" font-size="10px" font-weight="700" fill="#1E293B">Pilih Layanan</text>
+    
+    <!-- Option 1 (Selected) -->
+    <rect x="16" y="108" width="288" height="42" rx="8" fill="#F0FDF4" stroke="#22C55E" stroke-width="1.5"/>
+    <circle cx="32" cy="129" r="6" fill="#22C55E"/>
+    <text x="48" y="124" font-size="10px" font-weight="700" fill="#1E293B">Cuci Reguler (1-2 hari)</text>
+    <text x="48" y="138" font-size="8px" fill="#64748B">Cuci + Kering + Setrika</text>
+    <text x="240" y="132" font-size="10px" font-weight="700" fill="#16A34A">Rp 15.000</text>
+
+    <!-- Option 2 -->
+    <rect x="16" y="156" width="288" height="42" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <circle cx="32" cy="177" r="6" stroke="#94A3B8" fill="none"/>
+    <text x="48" y="172" font-size="10px" font-weight="600" fill="#1E293B">Cuci Express (3-6 jam)</text>
+    <text x="48" y="186" font-size="8px" fill="#64748B">Prioritas mesin cepat</text>
+    <text x="240" y="180" font-size="10px" font-weight="600" fill="#2563EB">Rp 25.000</text>
+
+    <!-- Option 3 -->
+    <rect x="16" y="204" width="288" height="42" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <circle cx="32" cy="225" r="6" stroke="#94A3B8" fill="none"/>
+    <text x="48" y="220" font-size="10px" font-weight="600" fill="#1E293B">Cuci Premium (Jas/Gaun)</text>
+    <text x="48" y="234" font-size="8px" fill="#64748B">Perawatan khusus kain</text>
+    <text x="240" y="228" font-size="10px" font-weight="600" fill="#2563EB">Rp 30.000</text>
+
+    <!-- Action Bottom -->
+    <rect x="16" y="258" width="288" height="30" rx="8" fill="#2563EB"/>
+    <text x="160" y="276" font-size="10px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Lanjutkan Pesanan →</text>
+  </g>
+
+  <!-- Frame 6: Checkout & Pembayaran -->
+  <g transform="translate(650, 395)">
+    <rect width="360" height="300" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">6. Checkout &amp; Pembayaran</text>
+
+    <!-- Summary Box -->
+    <rect x="16" y="34" width="328" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="28" y="52" font-size="11px" font-weight="700" fill="#0F172A">Ringkasan Pesanan</text>
+    <text x="28" y="72" font-size="9px" fill="#64748B">Cuci Reguler x 1 (5 kg)</text>
+    <text x="280" y="72" font-size="9px" font-weight="600" fill="#1E293B">Rp 15.000</text>
+    
+    <text x="28" y="90" font-size="9px" fill="#64748B">Ongkos Kirim Kurir (1.2 km)</text>
+    <text x="285" y="90" font-size="9px" font-weight="600" fill="#1E293B">Rp 5.000</text>
+
+    <line x1="28" y1="104" x2="330" y2="104" stroke="#CBD5E1"/>
+    <text x="28" y="124" font-size="11px" font-weight="700" fill="#0F172A">Total Tagihan</text>
+    <text x="272" y="124" font-size="12px" font-weight="800" fill="#2563EB">Rp 20.000</text>
+
+    <!-- Payment Options -->
+    <text x="16" y="162" font-size="10px" font-weight="700" fill="#1E293B">Metode Pembayaran</text>
+    
+    <rect x="16" y="172" width="328" height="30" rx="6" fill="#F0FDF4" stroke="#22C55E" stroke-width="1.5"/>
+    <circle cx="32" cy="187" r="5" fill="#22C55E"/>
+    <text x="46" y="191" font-size="10px" font-weight="700" fill="#166534">QRIS (BCA, Mandiri, GoPay, OVO, ShopeePay)</text>
+
+    <rect x="16" y="208" width="328" height="30" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <circle cx="32" cy="223" r="5" stroke="#94A3B8" fill="none"/>
+    <text x="46" y="227" font-size="10px" fill="#64748B">Transfer Bank / Virtual Account</text>
+
+    <!-- Action Pay Button -->
+    <rect x="16" y="254" width="328" height="34" rx="8" fill="#2563EB"/>
+    <text x="180" y="275" font-size="11px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Bayar Sekarang via QRIS</text>
+  </g>
+
+  <!-- Frame 7: Status Pesanan (12-Status Stepper) -->
+  <g transform="translate(1030, 395)">
+    <rect width="360" height="300" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">7. Status Pesanan (#INV-00124)</text>
+
+    <!-- Status Timeline Stepper Mini -->
+    <g transform="translate(30, 42)">
+      <!-- Line -->
+      <line x1="8" y1="12" x2="8" y2="170" stroke="#CBD5E1" stroke-width="2"/>
+      
+      <!-- Node 1: Dibuat -->
+      <circle cx="8" cy="12" r="7" fill="#22C55E"/>
+      <text x="24" y="15" font-size="10px" font-weight="600" fill="#1E293B">Pesanan Dibuat</text>
+      <text x="24" y="27" font-size="8px" fill="#94A3B8">12 Apr 2026, 09:00</text>
+
+      <!-- Node 2: Timbang & Cuci -->
+      <circle cx="8" cy="62" r="7" fill="#22C55E"/>
+      <text x="24" y="65" font-size="10px" font-weight="600" fill="#1E293B">Laundry Diproses (Cuci + Kering)</text>
+      <text x="24" y="77" font-size="8px" fill="#94A3B8">12 Apr 2026, 11:30 • 5.0 kg</text>
+
+      <!-- Node 3: Pengantaran (Active) -->
+      <circle cx="8" cy="112" r="9" fill="#2563EB"/>
+      <circle cx="8" cy="112" r="4" fill="#FFFFFF"/>
+      <text x="24" y="115" font-size="10px" font-weight="700" fill="#2563EB">Dalam Pengantaran oleh Kurir</text>
+      <text x="24" y="127" font-size="8px" fill="#64748B">Kurir: Ahmad Supriadi (0812-3456-7890)</text>
+
+      <!-- Node 4: Selesai -->
+      <circle cx="8" cy="162" r="7" fill="#E2E8F0"/>
+      <text x="24" y="165" font-size="10px" font-weight="500" fill="#94A3B8">Pesanan Selesai &amp; Diterima</text>
+    </g>
+
+    <!-- AI Banner Assistance -->
+    <rect x="16" y="234" width="328" height="52" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+    <text x="30" y="254" font-size="10px" font-weight="700" fill="#2563EB">Butuh bantuan tentang pesanan ini?</text>
+    <text x="30" y="268" font-size="8px" fill="#475569">Tanyakan status pengantaran langsung ke SmartBot AI.</text>
+    <rect x="250" y="244" width="82" height="26" rx="6" fill="#2563EB"/>
+    <text x="291" y="260" font-size="8px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Chat AI</text>
+  </g>
+
+  <!-- Frame 8: AI Assistant (SmartBot) -->
+  <g transform="translate(1410, 395)">
+    <rect width="470" height="300" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">8. AI Assistant (SmartBot)</text>
+
+    <!-- Chat Area -->
+    <rect x="16" y="32" width="438" height="210" rx="8" fill="#F8FAFC"/>
+    
+    <!-- Bot Message -->
+    <rect x="26" y="44" width="280" height="44" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="36" y="60" font-size="9px" font-weight="600" fill="#2563EB">SmartBot:</text>
+    <text x="36" y="74" font-size="9px" fill="#334155">Halo! Ada yang bisa saya bantu tentang laundry?</text>
+
+    <!-- User Message -->
+    <rect x="194" y="96" width="250" height="34" rx="8" fill="#2563EB"/>
+    <text x="206" y="116" font-size="9px" fill="#FFFFFF">Rekomendasi laundry terbaik dekat saya!</text>
+
+    <!-- Bot Response -->
+    <rect x="26" y="138" width="360" height="52" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="36" y="154" font-size="9px" font-weight="600" fill="#2563EB">SmartBot:</text>
+    <text x="36" y="168" font-size="9px" fill="#334155">Rekomendasi teratas adalah Laundry Express (1.2 km)</text>
+    <text x="36" y="180" font-size="8px" fill="#16A34A">Rating 4.8 ★ dengan layanan cepat dan kupon aktif!</text>
+
+    <!-- Input Bar -->
+    <rect x="16" y="250" width="380" height="32" rx="6" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="28" y="270" font-size="9px" fill="#94A3B8">Tulis pesan ke SmartBot AI...</text>
+    <rect x="404" y="250" width="50" height="32" rx="6" fill="#2563EB"/>
+    <text x="429" y="270" font-size="10px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Kirim</text>
+  </g>
+
+  <!-- ================= GRID OF FRAMES (ROW 3: FRAMES 9, 10, 11, 12) ================= -->
+
+  <!-- Frame 9: Dashboard Admin Toko -->
+  <g transform="translate(310, 715)">
+    <rect width="360" height="330" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">9. Dashboard Admin / Kasir Toko</text>
+
+    <!-- Stat Cards Kasir -->
+    <rect x="16" y="34" width="156" height="50" rx="6" fill="#EFF6FF"/>
+    <text x="26" y="52" font-size="9px" font-weight="600" fill="#2563EB">Pesanan Hari Ini</text>
+    <text x="26" y="72" font-size="16px" font-weight="700" fill="#0F172A">15 Pesanan</text>
+
+    <rect x="188" y="34" width="156" height="50" rx="6" fill="#F0FDF4"/>
+    <text x="198" y="52" font-size="9px" font-weight="600" fill="#16A34A">Omzet Kasir</text>
+    <text x="198" y="72" font-size="15px" font-weight="700" fill="#0F172A">Rp 750.000</text>
+
+    <!-- Table of incoming orders -->
+    <text x="16" y="104" font-size="10px" font-weight="700" fill="#1E293B">Daftar Antrean Cucian Toko</text>
+    
+    <rect x="16" y="114" width="328" height="42" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="26" y="132" font-size="9px" font-weight="700" fill="#2563EB">#INV-00124 (Budi)</text>
+    <text x="26" y="146" font-size="8px" fill="#64748B">Perlu Timbang Cucian</text>
+    <rect x="250" y="122" width="84" height="24" rx="4" fill="#F59E0B"/>
+    <text x="292" y="137" font-size="8px" font-weight="700" fill="#FFFFFF" text-anchor="middle">Input Timbangan</text>
+
+    <rect x="16" y="162" width="328" height="42" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="26" y="180" font-size="9px" font-weight="700" fill="#2563EB">#INV-00121 (Siti)</text>
+    <text x="26" y="194" font-size="8px" fill="#64748B">Selesai Setrika • 4.2 kg</text>
+    <rect x="250" y="170" width="84" height="24" rx="4" fill="#06B6D4"/>
+    <text x="292" y="185" font-size="8px" font-weight="700" fill="#FFFFFF" text-anchor="middle">Panggil Kurir</text>
+
+    <rect x="16" y="214" width="328" height="88" rx="6" fill="#EFF6FF"/>
+    <text x="26" y="232" font-size="10px" font-weight="700" fill="#2563EB">🤖 Pengaturan AI Outlet Toko</text>
+    <text x="26" y="248" font-size="8px" fill="#475569">Status Bot: Aktif • Model: Gemini 2.5 Flash</text>
+    <text x="26" y="262" font-size="8px" fill="#475569">API Key: Terenkripsi AES-256-GCM</text>
+  </g>
+
+  <!-- Frame 10: Dashboard Owner -->
+  <g transform="translate(690, 715)">
+    <rect width="360" height="330" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">10. Dashboard Owner Platform</text>
+
+    <!-- 4 Stats Grid -->
+    <g transform="translate(16, 34)">
+      <rect width="76" height="46" rx="6" fill="#EFF6FF"/>
+      <text x="8" y="16" font-size="8px" fill="#2563EB">Total Toko</text>
+      <text x="8" y="36" font-size="14px" font-weight="700" fill="#0F172A">24</text>
+
+      <rect x="84" width="76" height="46" rx="6" fill="#F0FDF4"/>
+      <text x="92" y="16" font-size="8px" fill="#16A34A">Pesanan</text>
+      <text x="92" y="36" font-size="14px" font-weight="700" fill="#0F172A">12.540</text>
+
+      <rect x="168" width="76" height="46" rx="6" fill="#FFFBEB"/>
+      <text x="176" y="16" font-size="8px" fill="#D97706">Pengguna</text>
+      <text x="176" y="36" font-size="14px" font-weight="700" fill="#0F172A">8.720</text>
+
+      <rect x="252" width="76" height="46" rx="6" fill="#F5F3FF"/>
+      <text x="260" y="16" font-size="8px" fill="#7C3AED">Omzet</text>
+      <text x="260" y="36" font-size="13px" font-weight="700" fill="#0F172A">125.5 Jt</text>
+    </g>
+
+    <!-- Chart Mini Visual -->
+    <text x="16" y="104" font-size="10px" font-weight="700" fill="#1E293B">Grafik Transaksi &amp; Omzet Platform</text>
+    <rect x="16" y="114" width="328" height="110" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+    
+    <!-- Mini Polyline Chart -->
+    <polyline points="30,200 70,170 120,185 180,140 240,155 300,130" fill="none" stroke="#2563EB" stroke-width="2.5"/>
+    <circle cx="300" cy="130" r="4" fill="#2563EB"/>
+    <text x="270" y="122" font-size="9px" font-weight="700" fill="#2563EB">Rp 125.5 Jt</text>
+
+    <!-- Top Stores Table Mini -->
+    <rect x="16" y="234" width="328" height="74" rx="6" fill="#F8FAFC"/>
+    <text x="26" y="252" font-size="9px" font-weight="700" fill="#0F172A">Top Mitra: CleanMaster (32%) • Kiat (28%)</text>
+    <text x="26" y="270" font-size="8px" fill="#64748B">Sistem Failover Pool AI Aktif (Gemini + Groq)</text>
+  </g>
+
+  <!-- Frame 11: Jasa Antar / Courier -->
+  <g transform="translate(1070, 715)">
+    <rect width="360" height="330" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">11. Jasa Antar / Kurir</text>
+
+    <!-- Duty Toggle -->
+    <rect x="16" y="34" width="328" height="32" rx="6" fill="#F0FDF4" stroke="#86EFAC"/>
+    <circle cx="32" cy="50" r="5" fill="#22C55E"/>
+    <text x="46" y="54" font-size="10px" font-weight="700" fill="#166534">STATUS DINAS: ONLINE (Siap Ambil Cucian)</text>
+
+    <!-- Tabs [Pickup | Delivery] -->
+    <rect x="16" y="74" width="160" height="24" rx="6" fill="#2563EB"/>
+    <text x="96" y="89" font-size="9px" font-weight="600" fill="#FFFFFF" text-anchor="middle">Pickup (Penjemputan)</text>
+
+    <rect x="184" y="74" width="160" height="24" rx="6" fill="#F1F5F9"/>
+    <text x="264" y="89" font-size="9px" fill="#64748B" text-anchor="middle">Delivery (Pengantaran)</text>
+
+    <!-- Task Card -->
+    <rect x="16" y="106" width="328" height="98" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="26" y="124" font-size="10px" font-weight="700" fill="#2563EB">#INV-00124 • Laundry Express</text>
+    <text x="26" y="140" font-size="9px" fill="#1E293B">Alamat: Jl. Melati No. 12 (1.2 km)</text>
+    <text x="26" y="156" font-size="8px" fill="#64748B">Estimasi Berat: 5 kg Cucian Reguler</text>
+
+    <!-- Action Button -->
+    <rect x="26" y="168" width="140" height="26" rx="6" fill="#22C55E"/>
+    <text x="96" y="184" font-size="9px" font-weight="700" fill="#FFFFFF" text-anchor="middle">Mulai Pickup 🚀</text>
+
+    <!-- Map Preview Mini -->
+    <rect x="16" y="214" width="328" height="96" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+    <path d="M40 280C100 240 180 260 300 230" fill="none" stroke="#2563EB" stroke-width="3" stroke-dasharray="4"/>
+    <circle cx="40" cy="280" r="6" fill="#2563EB"/>
+    <circle cx="300" cy="230" r="6" fill="#EF4444"/>
+    <text x="54" y="284" font-size="9px" font-weight="700" fill="#2563EB">Posisi Kurir</text>
+    <text x="240" y="226" font-size="9px" font-weight="700" fill="#EF4444">Rumah Customer</text>
+  </g>
+
+  <!-- Frame 12 & 13: Responsive Mobile & User Flow -->
+  <g transform="translate(1450, 715)">
+    <rect width="430" height="330" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#board-shadow)"/>
+    <text x="16" y="22" class="card-title">12. Responsive Mobile &amp; Prototype Flow</text>
+
+    <!-- 3 Mobile Screens Mini -->
+    <g transform="translate(16, 36)">
+      <!-- Mobile 1: Landing -->
+      <rect width="70" height="140" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+      <rect x="6" y="10" width="58" height="12" rx="2" fill="#2563EB"/>
+      <rect x="6" y="26" width="40" height="6" rx="1" fill="#1E293B"/>
+      <rect x="6" y="36" width="58" height="30" rx="3" fill="#EFF6FF"/>
+      <text x="35" y="130" font-size="7px" font-weight="600" fill="#64748B" text-anchor="middle">Mobile Web</text>
+
+      <!-- Mobile 2: Dashboard -->
+      <g transform="translate(80, 0)">
+        <rect width="70" height="140" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+        <rect x="6" y="8" width="58" height="10" rx="2" fill="#0F172A"/>
+        <rect x="6" y="22" width="26" height="20" rx="2" fill="#EFF6FF"/>
+        <rect x="36" y="22" width="28" height="20" rx="2" fill="#F0FDF4"/>
+        <rect x="6" y="46" width="58" height="30" rx="2" fill="#FFFFFF"/>
+        <rect x="0" y="122" width="70" height="18" rx="2" fill="#FFFFFF" stroke="#E2E8F0"/>
+        <text x="35" y="134" font-size="6px" fill="#2563EB" text-anchor="middle">Bottom Nav</text>
+      </g>
+
+      <!-- Mobile 3: Chat AI -->
+      <g transform="translate(160, 0)">
+        <rect width="70" height="140" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+        <rect x="0" y="0" width="70" height="16" rx="2" fill="#2563EB"/>
+        <text x="35" y="12" font-size="6px" font-weight="700" fill="#FFFFFF" text-anchor="middle">SmartBot</text>
+        <rect x="4" y="22" width="44" height="16" rx="3" fill="#FFFFFF"/>
+        <rect x="22" y="42" width="44" height="14" rx="3" fill="#2563EB"/>
+        <rect x="4" y="122" width="62" height="12" rx="3" fill="#FFFFFF" stroke="#CBD5E1"/>
+      </g>
+    </g>
+
+    <!-- User Flow Flowchart Mini -->
+    <g transform="translate(260, 36)">
+      <rect width="150" height="26" rx="6" fill="#EFF6FF" stroke="#2563EB"/>
+      <text x="75" y="17" font-size="9px" font-weight="700" fill="#2563EB" text-anchor="middle">Mulai / Landing</text>
+
+      <line x1="75" y1="26" x2="75" y2="40" stroke="#94A3B8" stroke-width="1.5"/>
+
+      <rect y="40" width="150" height="26" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <text x="75" y="57" font-size="9px" font-weight="600" fill="#1E293B" text-anchor="middle">Login / Register</text>
+
+      <line x1="75" y1="66" x2="75" y2="80" stroke="#94A3B8" stroke-width="1.5"/>
+
+      <rect y="80" width="150" height="26" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+      <text x="75" y="97" font-size="9px" font-weight="600" fill="#1E293B" text-anchor="middle">Pilih Toko &amp; Layanan</text>
+
+      <line x1="75" y1="106" x2="75" y2="120" stroke="#94A3B8" stroke-width="1.5"/>
+
+      <rect y="120" width="150" height="26" rx="6" fill="#DCFCE7" stroke="#22C55E"/>
+      <text x="75" y="137" font-size="9px" font-weight="700" fill="#166534" text-anchor="middle">Scan QRIS &amp; Status Selesai</text>
+    </g>
+
+    <rect x="16" y="200" width="398" height="110" rx="6" fill="#F8FAFC"/>
+    <text x="28" y="222" font-size="10px" font-weight="700" fill="#0F172A">Spesifikasi Prototipe Interaktif:</text>
+    <text x="28" y="240" font-size="9px" fill="#475569">• Transisi: Smart Animate 300ms Ease-Out</text>
+    <text x="28" y="256" font-size="9px" fill="#475569">• Overlay: Floating SmartBot AI Assistant (Slide Up 250ms)</text>
+    <text x="28" y="272" font-size="9px" fill="#475569">• Breakpoint: Mobile 390px, Tablet 768px, Desktop 1440px</text>
+  </g>
+
+</svg>

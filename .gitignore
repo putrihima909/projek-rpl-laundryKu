@@ -1,0 +1,45 @@
+# ==============================================================================
+# GITIGNORE: LaundryKu (Pure PHP MVC Marketplace Laundry)
+# ==============================================================================
+
+# 1. Environment & Credential Secrets (CRITICAL: Do NOT remove!)
+.env
+.env.local
+.env.production
+.env.staging
+!.env.example
+
+# 2. Dependency Directories
+/vendor/
+composer.phar
+composer
+composer-setup.php
+
+# 3. Storage, Dynamic Logs & Database Backups
+/storage/logs/*.log
+/storage/backups/*.sql
+!storage/logs/.gitkeep
+!storage/backups/.gitkeep
+
+# 4. Agent Brain & Temporary Artifacts
+/brain/
+backup_ai_fix/
+backup_ai_settings/
+
+# 5. OS & Editor Specific Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 6. Temporary Scratch Scripts & Output Dumps
+scratch_*.php
+test_output*.txt
+test_full_output.txt
